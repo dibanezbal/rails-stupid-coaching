@@ -1,3 +1,19 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$primary-color: #EEE;
+$main-font: 'Calibri' , sans-serif;
+$button-padding: 10px 15px;
+
+body {
+  background-color: $primary-color;
+  font-family: $main-font;
+}
+
+.button {
+  padding: $button-padding;
+  color: #FFF;
+  background-color: #337AB7;
+  border: 0;
+}
